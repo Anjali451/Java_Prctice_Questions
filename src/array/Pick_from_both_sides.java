@@ -1,4 +1,4 @@
-//Problem Source ==> https://www.interviewbit.com/problems/pick-from-both-sides/
+package array;//Problem Source ==> https://www.interviewbit.com/problems/pick-from-both-sides/
 
 import java.util.ArrayList;
 

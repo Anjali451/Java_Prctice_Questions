@@ -1,4 +1,4 @@
-//Problem Source ==> https://www.interviewbit.com/problems/max-non-negative-subarray/
+package array;//Problem Source ==> https://www.interviewbit.com/problems/max-non-negative-subarray/
 
 import java.util.ArrayList;
 import java.util.Arrays;

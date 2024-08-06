@@ -1,4 +1,4 @@
-//Problem Source ==> https://www.interviewbit.com/problems/occurence-of-each-number/
+package array;//Problem Source ==> https://www.interviewbit.com/problems/occurence-of-each-number/
 
 import java.util.*;
 public class Occurence_of_Each_Number {
