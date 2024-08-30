@@ -2,6 +2,7 @@ import Sorting.InsertionSort;
 import Sorting.LinearSearch;
 import Sorting.SelectionSort;
 import array.LargeFactorial;
+import generalQuestion.Container_With_Most_Water;
 import hashing.CountNumberofPairsWithAbsoluteDifferenceK;
 import hashing.FindTheLengthOfLargestSubarrayWith0Sum;
 import hashing.Maximum_distance_between_two_occurrences_of_same_element_in_array;
@@ -12,28 +13,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        int temp1, temp2, num1, num2, temp, hcf, lcm;
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter First Number: ");
-        num1 = scanner.nextInt();
-        System.out.print("Enter Second Number: ");
-        num2 = scanner.nextInt();
-        scanner.close();
-
-        temp1 = num1;
-        temp2 = num2;
-
-        while(temp2 != 0){
-            temp = temp2;
-            temp2 = temp1%temp2;
-            temp1 = temp;
-        }
-
-        hcf = temp1;
-        lcm = (num1*num2)/hcf;
-
-        System.out.println("HCF of input numbers: "+hcf);
-        System.out.println("LCM of input numbers: "+lcm);
+       int height[] = {1,2,4,5,6,7};
+        System.out.println(Container_With_Most_Water.maxArea(height));
     }
 }
