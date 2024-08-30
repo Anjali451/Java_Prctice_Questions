@@ -1,17 +1,9 @@
-import Sorting.InsertionSort;
-import Sorting.LinearSearch;
-import Sorting.SelectionSort;
-import array.LargeFactorial;
-import hashing.CountNumberofPairsWithAbsoluteDifferenceK;
-import hashing.FindTheLengthOfLargestSubarrayWith0Sum;
-import hashing.Maximum_distance_between_two_occurrences_of_same_element_in_array;
-import hashing.Two_Sum;
+package generalQuestion;
 
-import LinkedList.*;
-import java.util.*;
+import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class HCF_LCM {
+    public void find(){
         int temp1, temp2, num1, num2, temp, hcf, lcm;
         Scanner scanner = new Scanner(System.in);
 
