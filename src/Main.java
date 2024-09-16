@@ -1,6 +1,7 @@
 import Sorting.InsertionSort;
 import Sorting.LinearSearch;
 import Sorting.SelectionSort;
+import TCS_CodeVita.Count_Pairs;
 import TCS_CodeVita.Good_String;
 import array.LargeFactorial;
 import generalQuestion.Container_With_Most_Water;
@@ -14,8 +15,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-       String s1 = "6*K4AQf]gpi";
-       String s2 = "Nainika";
-        System.out.println(Good_String.distance(s1, s2));
+        int a[] = {1,3,5};
+        int k = 2;
+        System.out.println(Count_Pairs.count(a, k));
     }
 }
