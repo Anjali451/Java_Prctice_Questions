@@ -3,6 +3,8 @@ import Sorting.LinearSearch;
 import Sorting.SelectionSort;
 import TCS_CodeVita.Count_Pairs;
 import TCS_CodeVita.Good_String;
+import TCS_CodeVita.Minimize_the_sum;
+import TCS_CodeVita.Zero_Count;
 import array.LargeFactorial;
 import generalQuestion.Container_With_Most_Water;
 import hashing.CountNumberofPairsWithAbsoluteDifferenceK;
@@ -15,8 +17,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        int a[] = {1,3,5};
-        int k = 2;
-        System.out.println(Count_Pairs.count(a, k));
+        int a[] = {20, 7, 5, 4};
+        int k = 3;
+        System.out.println(Minimize_the_sum.minimize(a, k));
+
     }
 }
