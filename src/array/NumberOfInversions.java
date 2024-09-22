@@ -50,7 +50,7 @@ public class NumberOfInversions {
     public static int mergeSort(int[] arr, int low, int high) {
         int cnt = 0;
         if (low >= high) return cnt;
-        int mid = (low + high) / 2 ;
+        int mid = (low + high) / 2;
         cnt += mergeSort(arr, low, mid);  // left half
         cnt += mergeSort(arr, mid + 1, high); // right half
         cnt += merge(arr, low, mid, high);  // merging sorted halves
@@ -61,3 +61,5 @@ public class NumberOfInversions {
         // Count the number of pairs:
         return mergeSort(a, 0, n - 1);
     }
+
+}
