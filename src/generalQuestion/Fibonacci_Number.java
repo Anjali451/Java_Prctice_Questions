@@ -1,6 +1,6 @@
 package generalQuestion;
 
-//RECURSIVE METHOD O(n)
+//RECURSIVE METHOD O(2^n)
 public class Fibonacci_Number {
     public int fib(int n){
         if(n == 0){
@@ -14,7 +14,7 @@ public class Fibonacci_Number {
         }
     }
 
-//BRUTE FORCE METHOD  O(n^2)
+//BRUTE FORCE METHOD  O(n)
     public void fibo(int n){
         int num1 = 0;
         int num2 = 1;
